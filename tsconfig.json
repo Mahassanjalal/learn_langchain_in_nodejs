@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["ES2022"]
+  },
+  "include": ["*.ts", "supervisor/**/*.ts", "support/**/*.ts", "router_multiagent_pattern/**/*.ts", "sql-assistant/**/*.ts", "rag_agent/agent.ts", "rag_agent/index.ts"],
+  "exclude": ["node_modules", "dist"]
+}

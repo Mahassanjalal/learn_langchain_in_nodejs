@@ -1,0 +1,31 @@
+{
+  "name": "rag-agent",
+  "version": "1.0.0",
+  "description": "RAG agent using LangChain, LangGraph, and Ollama (local)",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx rag_agent/index.ts",
+    "start:supervisor": "tsx supervisor/index.ts",
+    "start:support": "tsx support/index.ts",
+    "start:router_multiagent_pattern": "tsx router_multiagent_pattern/index.ts",
+    "start:sql": "tsx sql-assistant/index.ts",
+    "build": "tsc",
+    "start:prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/ollama": "^0.2.4",
+    "@langchain/textsplitters": "^0.1.0",
+    "cheerio": "^1.0.0",
+    "langchain": "^0.3.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

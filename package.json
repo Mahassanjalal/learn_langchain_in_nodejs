@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsx rag_agent/index.ts",
+    "start:custom_rag": "tsx custom_rag_agent/index.ts",
     "start:supervisor": "tsx supervisor/index.ts",
     "start:support": "tsx support/index.ts",
     "start:router_multiagent_pattern": "tsx router_multiagent_pattern/index.ts",

@@ -10,6 +10,6 @@
     "skipLibCheck": true,
     "lib": ["ES2022"]
   },
-  "include": ["*.ts", "supervisor/**/*.ts", "support/**/*.ts", "router_multiagent_pattern/**/*.ts", "sql-assistant/**/*.ts", "rag_agent/agent.ts", "rag_agent/index.ts"],
+  "include": ["*.ts", "supervisor/**/*.ts", "support/**/*.ts", "router_multiagent_pattern/**/*.ts", "sql-assistant/**/*.ts", "rag_agent/agent.ts", "rag_agent/index.ts", "custom_rag_agent/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
